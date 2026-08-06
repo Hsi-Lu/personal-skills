@@ -25,7 +25,7 @@ Draft git commit messages based on staged changes, adhering to Conventional Comm
 
 Count the full subject line toward the 50-character limit, e.g. `feat(ui): add recent searches row` (34 chars).
 
-## Allowed types
+### Allowed types
 
 Use [Conventional Commits](https://www.conventionalcommits.org/) prefixes:
 
@@ -55,7 +55,11 @@ Use **`ai-infra`**, not `docs` or `chore`, when the commit mainly changes files 
 
 Human-facing docs (`README.md`, code comments) still use `docs`.
 
-### Combined feature and documentation updates
+## When no changes are staged
+
+Do not make assumptions—stop and ask the user to stage the files, or propose which changes should be staged.
+
+## Combined feature and documentation updates
 
 When a commit includes a feature change along with its corresponding documentation update, use **`feat`** as the commit type and mention the document update in the `<optional body>`.
 
