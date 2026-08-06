@@ -29,19 +29,19 @@ Count the full subject line toward the 50-character limit, e.g. `feat(ui): add r
 
 Use [Conventional Commits](https://www.conventionalcommits.org/) prefixes:
 
-| Type       | When to use                                                       |
-| ---------- | ----------------------------------------------------------------- |
-| `feat`     | New user-facing behavior or capability                            |
-| `fix`      | Bug fix                                                           |
-| `docs`     | README, comments, or other human-facing documentation only        |
-| `style`    | Formatting, whitespace, semicolons — no logic change              |
-| `refactor` | Code change that is neither a fix nor a feature                   |
-| `perf`     | Performance improvement                                           |
-| `test`     | Adding or updating tests                                          |
-| `build`    | Build system or dependencies (Vite, npm, bundler config)          |
-| `ci`       | CI/CD workflows (`.github/workflows/`)                            |
-| `chore`    | Maintenance that doesn't fit above (tooling config, `.gitignore`) |
-| `ai-infra` | **Changes to AI-agent-facing files** (see below)                  |
+| Type       | When to use                                                                            |
+| ---------- | -------------------------------------------------------------------------------------- |
+| `feat`     | New user-facing behavior or capability                                                 |
+| `fix`      | Bug fix                                                                                |
+| `docs`     | README, comments, or other human-facing documentation only                             |
+| `style`    | Formatting, whitespace, semicolons — no logic change                                   |
+| `refactor` | Code change that is neither a fix nor a feature                                        |
+| `perf`     | Performance improvement                                                                |
+| `test`     | Adding or updating tests                                                               |
+| `build`    | Build system or dependencies (Vite, npm, bundler config)                               |
+| `ci`       | CI/CD workflows (`.github/workflows/`)                                                 |
+| `ai-infra` | **Changes to AI-agent-facing files** (see [below](#ai-infra--agent-facing-files-only)) |
+| `chore`    | Maintenance that doesn't fit above (tooling config, `.gitignore`)                      |
 
 Optional scope in parentheses narrows the area: `feat(ui): …`, `fix(download): …`.
 
